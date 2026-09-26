@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       e.preventDefault();
       // Address is split and reversed here; replace the two parts
       // below with the real account details before publishing.
-      var user = "skoobmurdneldnomis"; // reversed: simonlendrumbooks
+      var user = "skoobmurdnelnomis"; // reversed: simonlendrumbooks
       var domain = "moc.liamg"; // reversed: gmail.com
       var address = user.split("").reverse().join("") + "@" + domain.split("").reverse().join("");
       el.textContent = address;
