@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simon Lendrum | Author of The Slow Roll &amp; The Burn Card</title>
+<meta name="description" content="Simon Lendrum is the Auckland-based, award-winning author of the O'Malley crime thriller series: The Slow Roll and The Burn Card, published by Upstart Press.">
+<link rel="canonical" href="https://simonlendrum.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Simon Lendrum | Author of The Slow Roll & The Burn Card">
+<meta property="og:description" content="Auckland-based, award-winning author of the O'Malley crime thriller series, published by Upstart Press.">
+<meta property="og:url" content="https://simonlendrum.com/">
+<meta property="og:image" content="https://simonlendrum.com/images/the-burn-card-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="container">
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="books.html">Books</a></li>
+      <li><a href="reviews-awards.html">Reviews &amp; Awards</a></li>
+      <li><a href="news-events.html">News &amp; Events</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="publisher-badge">
+      <span>Published by</span>
+      <img src="images/upstart-press-logo.png" alt="Upstart Press">
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner container">
+    <h1>Simon Lendrum</h1>
+    <p class="tagline">Crime fiction from Auckland's underworld.</p>
+    <div class="hero-covers">
+      <figure>
+        <a href="books.html#the-burn-card">
+          <img src="images/the-burn-card-cover.jpg" alt="The Burn Card book cover">
+        </a>
+        <figcaption>The Burn Card &mdash; out now</figcaption>
+      </figure>
+      <figure>
+        <a href="books.html#the-slow-roll">
+          <img src="images/the-slow-roll-cover.jpg" alt="The Slow Roll book cover">
+        </a>
+        <figcaption>The Slow Roll</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="awards-strip">
+  <div class="container awards-grid">
+    <div class="award-card">
+      <span class="eyebrow">Winner</span>
+      <h3>NZ Booklovers Best Adult Fiction Book 2023</h3>
+      <p>for The Slow Roll</p>
+    </div>
+    <div class="award-card">
+      <span class="eyebrow">Double Finalist</span>
+      <h3>Ngaio Marsh Awards 2023</h3>
+      <p>Best Crime Novel &amp; Best First Novel &mdash; for The Slow Roll</p>
+    </div>
+  </div>
+</section>
+
+<section class="pullquote">
+  <div class="container">
+    <blockquote>
+      &ldquo;A must-read for crime-fiction fans.&rdquo;
+      <cite>NZ Listener</cite>
+    </blockquote>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-contact">
+      <h2>Get in Touch</h2>
+      <div data-fs-success class="form-success"></div>
+      <div data-fs-error class="form-error"></div>
+      <form id="contact-form" class="contact-form" action="https://formspree.io/f/moevnrzq" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" data-fs-field required>
+          <span data-fs-error="name" class="field-error"></span>
+        </div>
+        <div>
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="_replyto" data-fs-field required>
+          <span data-fs-error="_replyto" class="field-error"></span>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" data-fs-field required></textarea>
+          <span data-fs-error="message" class="field-error"></span>
+        </div>
+        <button type="submit" data-fs-submit-btn>Send Message</button>
+      </form>
+      <span class="email-reveal">Prefer email? <a href="#" data-email-reveal>Click to reveal address</a></span>
+    </div>
+    <div class="footer-bottom">
+      <ul class="footer-nav">
+        <li><a href="books.html">Books</a></li>
+        <li><a href="reviews-awards.html">Reviews &amp; Awards</a></li>
+        <li><a href="news-events.html">News &amp; Events</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <p>&copy; 2026 Simon Lendrum</p>
+      <p>Auckland imagery courtesy of Auckland Brand Library (Tātaki Auckland Unlimited)</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#contact-form', formId: 'moevnrzq' });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+<script src="js/main.js"></script>
+</body>
+</html>

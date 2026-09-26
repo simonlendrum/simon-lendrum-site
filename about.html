@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Simon Lendrum</title>
+<meta name="description" content="Simon Lendrum is an Auckland-based crime thriller author and CEO of the Commercial Communications Council, author of The Slow Roll and The Burn Card.">
+<link rel="canonical" href="https://simonlendrum.com/about.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&amp;family=Lora:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="container">
+    <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="books.html">Books</a></li>
+      <li><a href="reviews-awards.html">Reviews &amp; Awards</a></li>
+      <li><a href="news-events.html">News &amp; Events</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+    </ul>
+    <div class="publisher-badge">
+      <span>Published by</span>
+      <img src="images/upstart-press-logo.png" alt="Upstart Press">
+    </div>
+  </div>
+</header>
+
+<section class="about-layout container">
+  <div>
+    <img src="images/author-photo.jpg" alt="Simon Lendrum">
+  </div>
+  <div class="about-copy">
+    <h1>About Simon</h1>
+    <p>
+      Simon Lendrum spent decades at the top of Auckland's advertising industry, and is
+      currently CEO of the Commercial Communications Council. A lifelong poker player
+      and voracious reader of crime fiction, he'd been threatening to write a novel of
+      his own for years. The 2020 lockdown finally gave him the excuse: he wrote The
+      Slow Roll in under five months, and Upstart Press pulled it straight from the
+      slush pile and published it immediately. It went on to win NZ Booklovers' Best
+      Adult Fiction Book of 2023 and was a double finalist at the Ngaio Marsh Awards.
+      His second novel, The Burn Card, continues O'Malley and Claire's story through
+      Auckland's underworld. Simon lives in Auckland.
+      <span class="placeholder-note">Placeholder bio &mdash; to be replaced with Simon's own words.</span>
+    </p>
+
+    <div class="about-links">
+      <a href="news-events.html">Speaking Events</a>
+      <a href="books.html">Books</a>
+      <a href="#get-in-touch">Contact / Media Enquiries</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer" id="get-in-touch">
+  <div class="container">
+    <div class="footer-contact">
+      <h2>Get in Touch</h2>
+      <div data-fs-success class="form-success"></div>
+      <div data-fs-error class="form-error"></div>
+      <form id="contact-form" class="contact-form" action="https://formspree.io/f/moevnrzq" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" data-fs-field required>
+          <span data-fs-error="name" class="field-error"></span>
+        </div>
+        <div>
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="_replyto" data-fs-field required>
+          <span data-fs-error="_replyto" class="field-error"></span>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" data-fs-field required></textarea>
+          <span data-fs-error="message" class="field-error"></span>
+        </div>
+        <button type="submit" data-fs-submit-btn>Send Message</button>
+      </form>
+      <span class="email-reveal">Prefer email? <a href="#" data-email-reveal>Click to reveal address</a></span>
+    </div>
+    <div class="footer-bottom">
+      <ul class="footer-nav">
+        <li><a href="books.html">Books</a></li>
+        <li><a href="reviews-awards.html">Reviews &amp; Awards</a></li>
+        <li><a href="news-events.html">News &amp; Events</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <p>&copy; 2026 Simon Lendrum</p>
+      <p>Auckland imagery courtesy of Auckland Brand Library (Tātaki Auckland Unlimited)</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#contact-form', formId: 'moevnrzq' });
+</script>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+<script src="js/main.js"></script>
+</body>
+</html>
