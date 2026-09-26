@@ -83,6 +83,26 @@ h1, h2, h3 {
   height: 68px;
 }
 
+.site-brand {
+  font-family: var(--condensed);
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold-bright);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.site-brand:hover {
+  color: var(--gold);
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
 .nav-links {
   display: flex;
   gap: 28px;
@@ -839,6 +859,10 @@ h1, h2, h3 {
    ----------------------------------------------------------- */
 
 @media (max-width: 760px) {
+  .site-brand {
+    font-size: 0.85rem;
+  }
+
   .nav-links {
     position: absolute;
     top: 68px;
